@@ -33,5 +33,5 @@ module ActionArgs
   end
 end
 
-AbstractController::Base.send :prepend, ActionArgs::AbstractControllerMethods
-AbstractController::Base.singleton_class.send :include, ActionArgs::AbstractControllerClassMethods
+# AbstractController::Base.send :prepend, ActionArgs::AbstractControllerMethods
+# AbstractController::Base.singleton_class.send :include, ActionArgs::AbstractControllerClassMethods
